@@ -9,7 +9,7 @@ const app = express();
 const port = 3000;
 const clientId = process.env.ROBLOX_CLIENT_ID;
 const clientSecret = process.env.ROBLOX_CLIENT_SECRET;
-const baseUrl = process.env.BASE_URL || `https://froggy-auth.onrender.com:`;
+const baseUrl = process.env.BASE_URL || `http://localhost:${port}`;
 
 // Discord setup
 const discordToken = process.env.DISCORD_BOT_TOKEN;
