@@ -6,7 +6,8 @@
     "axios": "^1.5.0",
     "cookie-parser": "^1.4.6",
     "express": "^4.18.2",
-    "openid-client": "^5.5.0"
+    "openid-client": "^5.5.0",
+    "discord.js": "^14.14.1"
   },
   "type": "module"
 }
